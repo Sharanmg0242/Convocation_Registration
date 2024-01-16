@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.body-home, .body-login {
+	background: url(../img/ssit.jpg);
+	background-size: cover;
+	background-color: antiquewhite;
+	background-attachment: fixed;
+}
+.black-fill {
+	background: rgba(0, 0, 0, 0.7);
+	min-height: 100vh;
+}
+#homeNav {
+	background: rgba(255,255,255, 0.5) !important;
+}
+.welcome-text {
+	min-height: 80vh;
+}
+.welcome-text img {
+	width: 100px;
+}
+.welcome-text h4 {
+	color: #eee;
+	font-size: 51px;
+	font-family: 'Lobster', cursive;
+
+}
+.welcome-text p {
+	color: #222;
+	background: rgba(255,255,255, 0.5);
+	padding: 5px;
+	border-radius: 4px;
+}
+#about {
+	min-height: 100vh;
+}
+#about .card-1{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#about .card-1 h5{
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+}
+
+#contact {
+	min-height: 100vh;
+}
+#contact form{
+	max-width: 600px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#contact form h3 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+textarea {
+	resize: none;
+}
+
+.login {
+	max-width: 500px;
+	width: 90%;
+	background: rgba(255,255,255, 0.5);
+	padding: 10px;
+	border-radius: 10px;
+}
+.login h3{
+	text-align: center;
+	font-size: 50px;
+}
+.w-450 {
+	width: 450px;
+}
+.h3{
+	background-color: azure;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body-home {
+    background: url(../img/ssit.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(196, 184, 184, 0.784); /* Set the default text color to white */
+}
+
+.black-fill {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+    padding: 20px; /* Add padding to the black-fill container */
+}
+
+.container {
+    background: rgba(56, 54, 54, 0.8); /* Semi-transparent white background for the form container */
+    padding: 20px;
+    border-radius: 10px; /* Add some border-radius for a rounded appearance */
+    margin-top: 50px; /* Adjust the margin to give some space between the form and the top */
+}
+
+.container h3 {
+    color: #ffffff; /* Set the color of the heading to a darker shade */
+}
